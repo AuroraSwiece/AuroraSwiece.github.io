@@ -94,8 +94,8 @@ export default {
 body {
   margin: 0;
   font-family: "Merriweather", serif;
-  color: #333;
-  background: linear-gradient(120deg, #ffffff, #f0f4f8);
+  color: #f8f1e1;
+  background: radial-gradient(circle, #483f39, #1d1917);
 }
 
 .landing-page {
@@ -113,12 +113,12 @@ body {
 .title {
   font-size: 3em;
   font-weight: bold;
-  color: #2c3e50;
+  color: #f3e1b9;
 }
 
 .subtitle {
   font-size: 1.2em;
-  color: #7f8c8d;
+  color: #e6c898;
   max-width: 700px;
   margin: 0 auto;
 }
@@ -138,8 +138,9 @@ body {
   justify-content: center;
   gap: 30px;
   padding: 20px;
-  background: #fdfdfd;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(48, 38, 32, 0.8);
+  border: 1px solid #e6c898;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
 }
 
@@ -162,32 +163,32 @@ body {
 
 .product-details h2 {
   font-size: 2em;
-  color: #2c3e50;
+  color: #f3e1b9;
   margin-bottom: 15px;
 }
 
 .product-details p {
   font-size: 1.1em;
-  color: #555;
+  color: #e6c898;
   line-height: 1.6;
 }
 
 /* Contact Form Section */
 .contact-form-section {
   padding: 20px;
-  background: #eaf2f8;
+  background: rgba(60, 50, 45, 0.9);
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 }
 
 .contact-form-section h2 {
   font-size: 2em;
-  color: #2c3e50;
+  color: #f3e1b9;
 }
 
 .contact-form-section p {
   font-size: 1em;
-  color: #7f8c8d;
+  color: #e6c898;
   margin-bottom: 20px;
 }
 
@@ -202,20 +203,26 @@ body {
 .form-input {
   padding: 10px;
   font-size: 1em;
-  border: 1px solid #ccc;
+  border: 1px solid #e6c898;
   border-radius: 5px;
+  background: #2c2520;
+  color: #f8f1e1;
+}
+
+.form-input::placeholder {
+  color: #a39079;
 }
 
 .or-divider {
   font-size: 0.9em;
-  color: #555;
+  color: #e6c898;
 }
 
 .submit-button {
   padding: 10px 20px;
   font-size: 1.2em;
-  background-color: #2c3e50;
-  color: white;
+  background-color: #f3e1b9;
+  color: #1d1917;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -223,12 +230,12 @@ body {
 }
 
 .submit-button:hover {
-  background-color: #34495e;
+  background-color: #e6c898;
 }
 
 .success-message {
   margin-top: 15px;
   font-size: 1em;
-  color: green;
+  color: #f3e1b9;
 }
 </style>
