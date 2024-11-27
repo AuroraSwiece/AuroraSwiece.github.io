@@ -11,7 +11,7 @@
       <section class="product-section">
         <div class="product-image-container">
           <img
-            src=""
+            src="./assets/image1.webp"
             alt="Premium crystal candle on a steel stand"
             class="product-image"
           />
